@@ -14,7 +14,7 @@
                         <div class="mb-3">
                             <label for="username" class="form-label small text-secondary">Username</label>
                             <input id="username" class="form-control" formControlName="username"
-                                    type="text" placeholder="" autocomplete="username" />
+                                    type="text" placeholder="masudRana" autocomplete="username" />
                             <div class="form-text text-danger small mt-1"
                                 *ngIf="form.get('username')?.touched && form.get('username')?.invalid">
                                     Username is required
@@ -24,7 +24,7 @@
                         <div class="mb-3">
                             <label for="password" class="form-label small text-secondary">Password</label>
                             <input id="password" class="form-control" formControlName="password"
-                                    type="password" placeholder="" autocomplete="current-password" />
+                                    type="password" placeholder="******" autocomplete="current-password" />
                             <div class="form-text text-danger small mt-1"
                                 *ngIf="form.get('password')?.touched && form.get('password')?.invalid">
                                     Password is required
